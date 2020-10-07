@@ -11,4 +11,8 @@ class BookRepository (private val bookDao: IBookDao) {
     suspend fun  addBook  (book: Book){
         bookDao.addBook(book)
     }
+
+    suspend fun updateBook(book: Book){
+        bookDao.updateBook(book)
+    }
 }
