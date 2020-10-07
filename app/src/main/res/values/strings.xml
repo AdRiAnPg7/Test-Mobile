@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Test</string>
+    <!-- PlaceHolders -->
+    <string name="add">Add Book</string>
+    <string name="title">Title</string>
+    <string name="pages">Pages</string>
+    <string name="editorial">Editorial</string>
+    <string name="author">Author</string>
+    <string name="description">Description</string>
+    <string name="photoUrl">Photo URL</string>
+    <!--  Buttons -->
+    <string name="buttonAdd">Add</string>
+
+    <!--  Cards -->
+    <string name="title_c">Title:</string>
+    <string name="pages_c">Pages: </string>
+    <string name="editorial_c">Editorial: </string>
+    <string name="author_c">Author: </string>
+    <string name="description_c">Description: </string>
+    <string name="photoUrl_c">Photo URL: </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
