@@ -8,19 +8,34 @@
     <fragment
         android:id="@+id/listFragment"
         android:name="com.e.examen.fragments.list.ListFragment"
-        android:label="Book List"
+        android:label="@string/list_books"
         tools:layout="@layout/fragment_list" >
         <action
             android:id="@+id/action_listFragment_to_addFragment"
             app:destination="@id/addFragment" />
+        <action
+            android:id="@+id/action_listFragment_to_updateFragment"
+            app:destination="@id/updateFragment" />
     </fragment>
     <fragment
         android:id="@+id/addFragment"
         android:name="com.e.examen.fragments.add.AddFragment"
-        android:label="Add Book"
+        android:label="@string/add_book"
         tools:layout="@layout/fragment_add" >
         <action
             android:id="@+id/action_addFragment_to_listFragment"
             app:destination="@id/listFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/updateFragment"
+        android:name="com.e.examen.fragments.update.UpdateFragment"
+        android:label="@string/update_book"
+        tools:layout="@layout/fragment_update" >
+        <action
+            android:id="@+id/action_updateFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+        <argument
+            android:name="currentBook"
+            app:argType="com.e.examen.model.Book" />
     </fragment>
 </navigation>

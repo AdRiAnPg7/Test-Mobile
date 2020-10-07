@@ -3,6 +3,7 @@ package com.e.examen.fragments.list
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import com.e.examen.R
 import com.e.examen.model.Book
@@ -36,6 +37,12 @@ class ListAdapter : RecyclerView.Adapter<ListAdapter.MyViewHolder>() {
         holder.itemView.description_txt.text = currentItem.description
         picasso.load(currentItem.photoUrl)
             .into(holder.itemView.my_image_view)
+
+        holder.itemView.rowLayout.setOnClickListener {
+            val action = ListFragmentDirections.actionListFragmentToUpdateFragment(currentItem)
+            holder.itemView.findNavController().navigate(action)
+        }
+
     }
 
     fun setData (books : List <Book>){

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Examen - Dispostivos Moviles</string>
+    <!-- PlaceHolders -->
+    <string name="add">Añadir Libro</string>
+    <string name="update">Actualizar Libro</string>
+    <string name="title">Titulo</string>
+    <string name="pages">Paginas</string>
+    <string name="editorial">Editorial</string>
+    <string name="author">Autor</string>
+    <string name="description">Descripcion</string>
+    <string name="photoUrl">Foto URL</string>
+    <!--  Buttons -->
+    <string name="buttonAdd">Añadir</string>
+    <string name="buttonUpdate">Actualizar</string>
+    <!--  Cards -->
+    <string name="title_c">Titulo:</string>
+    <string name="pages_c">Paginas: </string>
+    <string name="editorial_c">Editorial: </string>
+    <string name="author_c">Autor: </string>
+    <string name="description_c">Descripcion: </string>
+    <string name="photoUrl_c">Foto URL: </string>
+
+    <string name="add_book">Nuevo Libro</string>
+    <string name="list_books">Lista de Libros</string>
+    <string name="update_book">Actualizar Libro</string>
+</resources>

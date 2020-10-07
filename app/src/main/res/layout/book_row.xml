@@ -5,7 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="24sp">
+    android:padding="24sp"
+    android:id="@+id/rowLayout">
 
     <TextView
         android:id="@+id/id_txt"
@@ -14,9 +15,9 @@
         android:fontFamily="monospace"
         android:text="1"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/my_image_view"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="@+id/my_image_view" />
 
     <ImageView
         android:id="@+id/my_image_view"
